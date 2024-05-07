@@ -110,3 +110,33 @@ button {
     font-size: 0.8rem;
     text-align: center;
 }
+
+@media screen and (max-width: 620px) {
+    html {
+        font-size: 14px;
+    }
+
+    .div-options {
+        flex-direction: column;   
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+        row-gap: 16px;
+        
+        
+    }
+
+    .option {
+        width: 50%;    
+        
+        
+    }
+
+    .container {
+        width: 95%;
+    }
+  
+    
+}
